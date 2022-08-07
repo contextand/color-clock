@@ -1,0 +1,60 @@
+/* reset */
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* component */
+
+body {
+    background: #888;
+}
+
+.clock {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Audiowide', cursive;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: .3px;
+}
+
+.blue {
+    background-image: linear-gradient(150deg, rgba(33,214,204,1.00) 1%,rgba(33,81,226,1.00) 100%);
+    background-position: center center;
+    color: white;
+}
+
+.green {
+    background-image: linear-gradient(150deg, rgb(31, 211, 61) 1%,rgb(6, 126, 201) 100%);
+    background-position: center center;
+    color: white;
+}
+
+.yellow {
+    background-image: linear-gradient(90deg, rgb(211, 205, 31) 1%,rgb(249, 143, 5) 100%);
+    background-position: center center;
+    color: white;
+}
+
+.red {
+    background-image: linear-gradient(150deg, rgb(227, 18, 105) 0%,rgba(206,112,33,1.00) 100%);background-position: center center;
+    color: white;
+}
+
+.purple {
+    background-image: linear-gradient(150deg, rgba(227, 18, 199, 0.913) 0%,rgb(114, 18, 223) 100%);background-position: center center;
+    color: white;
+}
